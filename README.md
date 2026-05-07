@@ -5,19 +5,47 @@
 ## 功能介绍
 
 - **时钟首页**：默认显示当前时间和日期。
-![alt text](assets/images/clock.png)
+
+<p align="center">
+  <img src="assets/images/clock.png" alt="时钟首页" width="400">
+</p>
+
 - **工作计时**：提供默认 25 分钟的专注计时。
-![alt text](assets/images/worktime.png)
+
+<p align="center">
+  <img src="assets/images/worktime.png" alt="工作计时" width="400">
+</p>
+
 - **休息计时**：提供默认 5 分钟的休息计时。
-![alt text](assets/images/breaktime.png)
+
+<p align="center">
+  <img src="assets/images/breaktime.png" alt="休息计时" width="400">
+</p>
+
 - **循环番茄钟**：可按「工作 - 休息」的节奏自动循环，默认循环 3 次。
+
 - **自定义设置**：可以调整循环次数、工作时长和休息时长。
-![alt text](assets/images/settings.png)
+
+<p align="center">
+  <img src="assets/images/settings.png" alt="自定义设置" width="400">
+</p>
+
 - **主题切换**：支持深色和浅色两种显示主题。
-![alt text](assets/images/theme-dark.png)
-![alt text](assets/images/theme-light.png)
+
+<p align="center">
+  <img src="assets/images/theme-dark.png" alt="深色主题" width="400">
+</p>
+
+<p align="center">
+  <img src="assets/images/theme-light.png" alt="浅色主题" width="400">
+</p>
+
 - **完成提醒**：计时结束后会显示阶段完成提示，并播放提示音。
-![alt text](assets/images/done.png)
+
+<p align="center">
+  <img src="assets/images/done.png" alt="完成提醒" width="400">
+</p>
+
 - **Playdate 曲柄交互**：在设置页可用曲柄调整数值，计时页可用曲柄重置当前计时。
 
 ## 操作概览
