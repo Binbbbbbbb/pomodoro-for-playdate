@@ -164,6 +164,7 @@ local PAD_RIGHT_ARROW <const> = {
 local defaultFont = gfx.getSystemFont(gfx.font.kVariantBold)
 local timeFont = gfx.font.new("font/Pixel-font/PixelFont") or defaultFont
 local timerFont = gfx.font.new("font/Pixel-font/PixelFont-60") or defaultFont
+local alertFont = gfx.font.new("font/Roobert/Roobert-24-Medium") or defaultFont
 
 -- =====================
 -- Sound
@@ -946,7 +947,7 @@ makeModeImage = function(screenMode)
 end
 
 local function drawPhaseAlert()
-    gfx.setFont(timerFont)
+    gfx.setFont(alertFont)
     gfx.drawTextAligned(phaseAlertMessage or "DONE", SCREEN_CENTER_X, 84, kTextAlignment.center)
 
     gfx.setFont(defaultFont)
